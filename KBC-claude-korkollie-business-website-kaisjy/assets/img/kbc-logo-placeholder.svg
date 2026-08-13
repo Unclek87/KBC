@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240"
+     role="img" aria-label="Korkollie Business Center seal placeholder">
+  <title>Korkollie Business Center seal — placeholder</title>
+  <!--
+    PLACEHOLDER LOGO
+    Swap this file for the real circular KBC seal (blue and red, "Republic of Liberia").
+    Keep the filename the same and the header, footer and favicon all update at once,
+    or point the <img src> in index.html at your own file. A square export of at least
+    512 x 512 px works best, PNG with transparency or SVG.
+  -->
+  <defs>
+    <path id="arcTop" d="M120 120 m-88 0 a88 88 0 0 1 176 0" fill="none"/>
+    <path id="arcBottom" d="M120 120 m-74 0 a74 74 0 0 0 148 0" fill="none"/>
+  </defs>
+
+  <!-- Outer navy ring with gold hairlines -->
+  <circle cx="120" cy="120" r="118" fill="#0B2A6B"/>
+  <circle cx="120" cy="120" r="112" fill="none" stroke="#F5B301" stroke-width="2.5"/>
+  <circle cx="120" cy="120" r="86" fill="none" stroke="#F5B301" stroke-width="1.5" stroke-opacity="0.8"/>
+
+  <!-- Arced ring text -->
+  <text font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700"
+        letter-spacing="2.6" fill="#FFFFFF">
+    <textPath href="#arcTop" startOffset="50%" text-anchor="middle">KORKOLLIE BUSINESS CENTER</textPath>
+  </text>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700"
+        letter-spacing="3" fill="#F5B301">
+    <textPath href="#arcBottom" startOffset="50%" text-anchor="middle">REPUBLIC OF LIBERIA</textPath>
+  </text>
+
+  <!-- Inner medallion -->
+  <circle cx="120" cy="120" r="72" fill="#1656C4"/>
+  <circle cx="120" cy="120" r="72" fill="none" stroke="#F5B301" stroke-width="3"/>
+  <path d="M48 120a72 72 0 0 1 144 0Z" fill="#D62027" fill-opacity="0.92"/>
+  <circle cx="120" cy="120" r="52" fill="#FFFFFF"/>
+
+  <!-- Monogram -->
+  <text x="120" y="136" text-anchor="middle" fill="#0B2A6B"
+        font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="46"
+        font-weight="700" letter-spacing="1">KBC</text>
+  <text x="120" y="154" text-anchor="middle" fill="#D62027"
+        font-family="Arial, Helvetica, sans-serif" font-size="10"
+        font-weight="700" letter-spacing="2.4">BEST OF THE BEST</text>
+
+  <!-- Flag-star flourishes -->
+  <path d="M120 62l3.2 6.6 7.3 1-5.3 5.1 1.3 7.2-6.5-3.4-6.5 3.4 1.3-7.2-5.3-5.1 7.3-1z" fill="#F5B301"/>
+</svg>

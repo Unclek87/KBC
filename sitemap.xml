@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Single-page site, so there is one URL. The section anchors below are listed
+  for clarity only; search engines index them as part of the one page.
+  TODO: replace korkolliebusinesscenter.com with your real domain, and update
+  <lastmod> whenever you make a significant content change.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://korkolliebusinesscenter.com/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
